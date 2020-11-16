@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind+Vadodara:wght@500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+    background: -webkit-linear-gradient(left, #cd1717, #5e1911);
+}
+
+.tittle {
+    margin: auto;
+    background-image: url("pannel.jpg");
+    text-align: center;
+    padding-top: 90px;
+    border-bottom: solid 2px;
+    height: 200px;
+}
+
+.tittle h1 {
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: cornsilk;
+    font-size: 30px;
+}
+
+.info  {
+    width: 100%;
+    background-color: cornsilk;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border-bottom: solid 1px;
+    padding: 20px auto;
+}
+
+.info th {
+    background-color: black;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#data {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#time {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: cornsilk;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 600px){
+    .info th td{
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+}
